@@ -1,0 +1,21 @@
+{
+  "name": "data-structure-and-algorithms",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "<andrew.bohm@pacificuniform.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -w",
+    "start": "node dist/index.js",
+    "test": "yarn jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "eslint": "^7.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.5.3",
+    "prettier": "^2.1.2",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.3"
+  }
+}
